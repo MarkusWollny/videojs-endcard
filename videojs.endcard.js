@@ -104,6 +104,6 @@
 
   };
 
-  vjs.plugin('endcard', endcard);
+  (vjs.registerPlugin || vjs.plugin)('endcard', endcard);
     
 })(window.videojs);
